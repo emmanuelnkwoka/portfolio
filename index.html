@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emmanuel Nkwoka | Senior Web Developer</title>
+
+   <!-- Favicon -->
+  <link rel="icon" href="./favicon.png" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon.png" />
+  <link rel="shortcut icon" href="./favicon.png" type="image/png" />
+
+    <!-- SEO -->
+  <meta name="description" content="Emmanuel Nkwoka — Senior Web Developer specializing in modern web apps, AI & System Automation, and performance optimization." />
+
+  <!-- Open Graph (Facebook, WhatsApp, LinkedIn) -->
+  <meta property="og:title" content="Emmanuel Nkwoka | Senior Web Developer" />
+  <meta property="og:description" content="Crafting modern, responsive, and fast web experiences." />
+  <meta property="og:image" content="https://emmanuelnkwoka.com/favicon.png" />
+  <meta property="og:url" content="https://emmanuelnkwoka.com" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Emmanuel Nkwoka Portfolio" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Emmanuel Nkwoka | Senior Web Developer" />
+  <meta name="twitter:description" content="Crafting modern, responsive, and fast web experiences." />
+  <meta name="twitter:image" content="https://emmanuelnkwoka.com/favicon.png" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script>
+      // Set theme immediately to prevent FOUC (Flash of Unstyled Content)
+      (function() {
+        try {
+          const savedTheme = localStorage.getItem('theme');
+          const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (e) {
+          // localStorage is disabled
+        }
+      })();
+    </script>
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
