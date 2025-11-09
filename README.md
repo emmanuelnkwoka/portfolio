@@ -1,20 +1,20 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+  <img width="1200" height="475" alt="Emmanuel Nkwoka Portfolio Banner" src="https://raw.githubusercontent.com/emmanuelnkwoka/portfolio/main/hero.png" />
 </div>
 
-# Run and deploy your AI Studio app
+# Emmanuel Nkwoka — Senior Web Developer & AI Automation Specialist
 
-This contains everything you need to run your app locally.
+This repository contains the source code for my personal portfolio website, built with **Next.js**, **Tailwind CSS**, and modern frontend best practices.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1aPFc9tb1CkSGv6eIO9_TlGyQLThQAGYJ
+**Live Portfolio:** [https://emmanuelnkwoka.com](https://emmanuelnkwoka.com)  
+**GitHub Repo:** [https://github.com/emmanuelnkwoka/portfolio](https://github.com/emmanuelnkwoka/portfolio)
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## 🚀 Run Locally
 
+**Prerequisites:** Node.js (LTS recommended)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### 1. Clone the repository
+```bash
+git clone https://github.com/emmanuelnkwoka/portfolio.git
