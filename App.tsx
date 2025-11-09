@@ -58,7 +58,7 @@ const App: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
           <h1 className="text-2xl font-black text-blue-600 dark:text-blue-400 tracking-tight">
                 <img
-                  src="https://dev.emmanuelnkwoka.com/hero.png"
+                  src="https://dev.emmanuelnkwoka.com/logo.png"
                   alt="Emmanuel Nkwoka"
                   className="w-full h-full object-cover object-center"
                 />
