@@ -58,7 +58,7 @@ const App: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
           <h1 className="text-2xl font-black text-blue-600 dark:text-blue-400 tracking-tight">
                 <img
-                  src="https://dev.emmanuelnkwoka.com/logo.png"
+                  src="https://emmanuelnkwoka.com/logo.png"
                   alt="Emmanuel Nkwoka"
                   className="w-full h-full object-cover object-center"
                 />
@@ -99,7 +99,7 @@ const App: React.FC = () => {
             <div className="lg:col-span-5 flex justify-center mt-12 lg:mt-0">
               <div className="w-full max-w-md h-96 bg-gray-100 dark:bg-gray-800/50 rounded-3xl shadow-2xl dark:shadow-blue-900/20 relative overflow-hidden">
                 <img
-                  src="https://dev.emmanuelnkwoka.com/hero.png"
+                  src="https://emmanuelnkwoka.com/hero.png"
                   alt="Emmanuel Nkwoka at office setup"
                   className="w-full h-full object-cover object-center"
                 />
